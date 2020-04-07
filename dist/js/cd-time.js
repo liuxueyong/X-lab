@@ -13,6 +13,6 @@ var s=Math.floor(t/1000%60);
 document.getElementById("td").innerHTML = d + " DAY ";
 document.getElementById("th").innerHTML = h + " :";
 document.getElementById("tm").innerHTML = m + " :";
-document.getElementById("ts").innerHTML = s + " ”";
+document.getElementById("ts").innerHTML = s + " ″";
 }
 setInterval(getRTime,1000);
