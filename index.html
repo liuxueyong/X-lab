@@ -11,6 +11,9 @@
     <link rel="stylesheet" href="dist/css/style.css">
     <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
 	<script src="dist/js/cd-time.js"></script>
+	<link rel="stylesheet" type="text/css" href="ani/waifu.css"/>
+    <script src="ani/jquery.min.js"></script>
+
 </head>
 <body class="is-boxed has-animations">
     <div class="body-wrap boxed-container">
@@ -29,6 +32,22 @@
             </div>
         </header>
 
+     <div class="waifu" id="waifu">
+     <div class="waifu-tips" style="opacity: 1;"></div>
+     <canvas id="live2d" width="280" height="250" class="live2d"></canvas>
+     <div class="waifu-tool">
+     <span class="fui-chat"></span>
+     <span class="fui-eye"></span>
+     <span class="fui-user"></span>
+     <span class="fui-photo"></span>
+     <span class="fui-info-circle"></span>
+     <span class="fui-cross"></span>
+     </div>
+     </div>
+     <script src="ani/live2d.min.js"></script>
+     <script src="ani/waifu-tips.js"></script>
+     <script type="text/javascript">initModel()</script>
+	
         <main>
             <section class="hero">
                 <div class="container">
@@ -296,3 +315,5 @@
     <script src="dist/js/main.min.js"></script>
 </body>
 </html>
+<link rel="stylesheet" type="text/css" href="ani/flat-ui.min.css"/>
+	
