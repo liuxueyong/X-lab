@@ -406,7 +406,7 @@ function initModel(){
         /* 首次访问加载 指定模型 的 指定材质 */
 
         var modelId = 6;            // 模型 ID
-        var modelTexturesId = 2;    // 材质 ID
+        var modelTexturesId = 17;    // 材质 ID
 
     } loadModel(modelId, modelTexturesId);
 
