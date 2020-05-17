@@ -1,7 +1,7 @@
 
 
 function getRTime(){
-var EndTime= new Date('2020/05/10 00:00:00'); //CD
+var EndTime= new Date('2020/07/10 00:00:00'); //CD
 var NowTime = new Date();
 var t =EndTime.getTime() - NowTime.getTime();
  
